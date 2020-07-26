@@ -9,7 +9,7 @@ def join_nested_strings(src)
       if src[row_index][element_index].class == "Integer"
         output << ""
       else
-        output << "src[row_index][element_index]"
+        output << src[row_index][element_index]
       end
       element_index += 1
     end
